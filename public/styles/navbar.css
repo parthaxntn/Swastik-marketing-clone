@@ -1,0 +1,53 @@
+:root{
+    --bs-offcanvas-width: 250px;
+}
+
+.navbar{
+    z-index: 1050;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.offcanvas-button{
+    background-color: transparent;
+    border: 0px;
+}
+
+.offcanvas-button svg{
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown svg{
+    pointer-events: none;
+}
+
+.profile svg{
+    width: 30px;
+    height: 30px;
+}
+
+.profile{
+    background: transparent;
+    border: 0px;
+    margin: 2px 15px;
+}
+
+.nav-right .connected{
+    color: green;
+    background: greenyellow;
+    border: 0px;
+    border-radius: 20px;
+    padding: 2px 11px;
+}
+
+.nav-right{
+    margin: 2px 15px;
+}
+
+.nav-right svg{
+    width: 25px;
+    height: 25px;
+}

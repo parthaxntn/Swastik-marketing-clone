@@ -1,0 +1,16 @@
+.page{
+    color: gray !important;
+    padding: 5px 12px;
+    margin: 0.4rem auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+.page_sel{
+    color: white !important;
+}
+
+.pages{
+    padding-left: 0px;
+    list-style: none;
+}
